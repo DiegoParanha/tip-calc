@@ -4,7 +4,7 @@
 
 ###  [Use Tip-Calc]()
 
-Pretty simple, its a Tip Calculator for those are do not like to use a normal calulator 
+Pretty simple app, it's a Tip Calculator for those are do not like to use a normal calulator when paying your bill in the restaurant
 </div>
 
 
