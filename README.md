@@ -2,7 +2,7 @@
 
 # 💸 Tip Calculator 💸
 
-###  [Use Tip-Calc]()
+###  [Use Tip-Calc](https://tipcalculate1.netlify.app/)
 
 Pretty simple app, it's a Tip Calculator for those are do not like to use a normal calulator when paying your bill in the restaurant
 </div>
