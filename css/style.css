@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dongle', sans-serif;
+    height: 100vh;
+    font-size: 22px;
+    position: relative;
+    background-color: slategray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid aqua;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: slategray;
+    margin: 10px 10px 0 10px;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 13px rgb(0 0 0 / 10%);
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aqua;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aqua;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+button {
+    border: 1px solid aqua;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+}
+
+button:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+}
+
+.total {
+    margin-top: -30px;
+    font-size: 35px;
+}
+
+#Div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
