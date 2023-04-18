@@ -21,6 +21,11 @@ h1 {
     margin: 10px 10px 0 10px;
 }
 
+#moneyEmoji {
+    font-size: 30px;
+    margin-top: 10px; 
+}
+
 .container {
     position: absolute;
     left: 50%;
@@ -70,12 +75,38 @@ button:hover {
     color: black;
 }
 
-.total {
-    margin-top: -30px;
-    font-size: 35px;
+.Div {
+    font-size: 25px;
 }
 
-#Div {
+p {
+    margin-top: -5px;
+}
+
+#section {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+@media (max-device-width:480px ) {
+    .container {
+        width: 375px;
+        height: 600px;
+    }
+
+    #section {
+        margin-top: 50px;
+    }
+
+    #options {
+        position: relative;
+        font-size: 40px;
+    }
+
+    button {
+        margin-top: 30px;
+        height: 80px;
+        width: 250px;
+    }
+
 }

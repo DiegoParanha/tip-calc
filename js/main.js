@@ -10,7 +10,7 @@ calcuate.addEventListener('click' , () => {
     }
 
     let total = (totalBill * tipPercent);
-    total = total.toFixed(2)
+    total = total.toFixed(2);
 
     document.getElementById('tip').innerHTML = '$' + total;
 
